@@ -1,0 +1,6 @@
+framework module Pods_MeuDinheiro_MeuDinheiroUITests {
+  umbrella header "Pods-MeuDinheiro-MeuDinheiroUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

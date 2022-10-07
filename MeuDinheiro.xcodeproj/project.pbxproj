@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2245C028EE134500EF1C60 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2245BF28EE134500EF1C60 /* TabBarHome.swift */; };
+		2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */; };
+		2A6DC67928F07896004BBE84 /* MoneyViewFavoreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */; };
+		2A92605728EA438E005F4446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605628EA438E005F4446 /* AppDelegate.swift */; };
+		2A92605928EA438E005F4446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605828EA438E005F4446 /* SceneDelegate.swift */; };
+		2A92605B28EA438E005F4446 /* MyMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605A28EA438E005F4446 /* MyMoneyView.swift */; };
+		2A92606128EA438E005F4446 /* MeuDinheiro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605F28EA438E005F4446 /* MeuDinheiro.xcdatamodeld */; };
+		2A92606328EA4391005F4446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92606228EA4391005F4446 /* Assets.xcassets */; };
+		2A92606628EA4391005F4446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92606428EA4391005F4446 /* LaunchScreen.storyboard */; };
+		2A92607128EA4392005F4446 /* MeuDinheiroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92607028EA4392005F4446 /* MeuDinheiroTests.swift */; };
+		2A92607C28EA4392005F4446 /* MeuDinheiroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92607B28EA4392005F4446 /* MeuDinheiroUITests.swift */; };
+		2AA1D03828F07B3D00D66BB9 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D03728F07B3D00D66BB9 /* MoneyViewController.swift */; };
+		2AA1D04328F07B9B00D66BB9 /* MoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D04228F07B9B00D66BB9 /* MoneyView.swift */; };
+		2AA1D05128F0936E00D66BB9 /* GastosFixosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D05028F0936E00D66BB9 /* GastosFixosView.swift */; };
+		2AA1D05628F0938F00D66BB9 /* GastosFixosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D05528F0938F00D66BB9 /* GastosFixosViewController.swift */; };
+		2AA1D05E28F0958600D66BB9 /* GastosVariaveisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D05D28F0958600D66BB9 /* GastosVariaveisViewController.swift */; };
+		2AA1D06328F095C000D66BB9 /* GastosVariaveisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */; };
+		2AA1D06B28F096C100D66BB9 /* RendaMensalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D06A28F096C100D66BB9 /* RendaMensalView.swift */; };
+		2AA1D07328F096FE00D66BB9 /* RendaMensalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D07228F096FE00D66BB9 /* RendaMensalViewController.swift */; };
+		6BD5B72C86FD80AAE0EB8B3D /* Pods_MeuDinheiro_MeuDinheiroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DC554046F21E4B3C60157F /* Pods_MeuDinheiro_MeuDinheiroUITests.framework */; };
+		CA4C06006DB4367576D5BD34 /* Pods_MeuDinheiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */; };
+		EDF7BDF04D8D5FCC6F1AEF14 /* Pods_MeuDinheiroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F257F7DBAC04C061679169FE /* Pods_MeuDinheiroTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A92606D28EA4392005F4446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A92604B28EA438E005F4446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A92605228EA438E005F4446;
+			remoteInfo = MeuDinheiro;
+		};
+		2A92607828EA4392005F4446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A92604B28EA438E005F4446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A92605228EA438E005F4446;
+			remoteInfo = MeuDinheiro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeuDinheiro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2245BF28EE134500EF1C60 /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyFavoreteView.swift; sourceTree = "<group>"; };
+		2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewFavoreteViewController.swift; sourceTree = "<group>"; };
+		2A92605328EA438E005F4446 /* MeuDinheiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuDinheiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92605628EA438E005F4446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A92605828EA438E005F4446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2A92605A28EA438E005F4446 /* MyMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoneyView.swift; sourceTree = "<group>"; };
+		2A92606028EA438E005F4446 /* MeuDinheiro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeuDinheiro.xcdatamodel; sourceTree = "<group>"; };
+		2A92606228EA4391005F4446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A92606528EA4391005F4446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A92606728EA4391005F4446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92606C28EA4392005F4446 /* MeuDinheiroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuDinheiroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92607028EA4392005F4446 /* MeuDinheiroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuDinheiroTests.swift; sourceTree = "<group>"; };
+		2A92607228EA4392005F4446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A92607728EA4392005F4446 /* MeuDinheiroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeuDinheiroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A92607B28EA4392005F4446 /* MeuDinheiroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuDinheiroUITests.swift; sourceTree = "<group>"; };
+		2A92607D28EA4392005F4446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA1D03728F07B3D00D66BB9 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		2AA1D04228F07B9B00D66BB9 /* MoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyView.swift; sourceTree = "<group>"; };
+		2AA1D05028F0936E00D66BB9 /* GastosFixosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosFixosView.swift; sourceTree = "<group>"; };
+		2AA1D05528F0938F00D66BB9 /* GastosFixosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosFixosViewController.swift; sourceTree = "<group>"; };
+		2AA1D05D28F0958600D66BB9 /* GastosVariaveisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosVariaveisViewController.swift; sourceTree = "<group>"; };
+		2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosVariaveisView.swift; sourceTree = "<group>"; };
+		2AA1D06A28F096C100D66BB9 /* RendaMensalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaMensalView.swift; sourceTree = "<group>"; };
+		2AA1D07228F096FE00D66BB9 /* RendaMensalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaMensalViewController.swift; sourceTree = "<group>"; };
+		6D98B04AFCA40D33CA5E2072 /* Pods-MeuDinheiroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiroTests.release.xcconfig"; path = "Target Support Files/Pods-MeuDinheiroTests/Pods-MeuDinheiroTests.release.xcconfig"; sourceTree = "<group>"; };
+		9EB00960F9D50E43C50DCF3C /* Pods-MeuDinheiro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiro.debug.xcconfig"; path = "Target Support Files/Pods-MeuDinheiro/Pods-MeuDinheiro.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4D604BC61CFF2141F25E87 /* Pods-MeuDinheiroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiroTests.debug.xcconfig"; path = "Target Support Files/Pods-MeuDinheiroTests/Pods-MeuDinheiroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0F2E3BB3443222FE8C65FEE /* Pods-MeuDinheiro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiro.release.xcconfig"; path = "Target Support Files/Pods-MeuDinheiro/Pods-MeuDinheiro.release.xcconfig"; sourceTree = "<group>"; };
+		C1F6043E043049A0A8743466 /* Pods-MeuDinheiro-MeuDinheiroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiro-MeuDinheiroUITests.release.xcconfig"; path = "Target Support Files/Pods-MeuDinheiro-MeuDinheiroUITests/Pods-MeuDinheiro-MeuDinheiroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E966F4EDD2AF7B1331CC462C /* Pods-MeuDinheiro-MeuDinheiroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiro-MeuDinheiroUITests.debug.xcconfig"; path = "Target Support Files/Pods-MeuDinheiro-MeuDinheiroUITests/Pods-MeuDinheiro-MeuDinheiroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F257F7DBAC04C061679169FE /* Pods_MeuDinheiroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeuDinheiroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DC554046F21E4B3C60157F /* Pods_MeuDinheiro_MeuDinheiroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeuDinheiro_MeuDinheiroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A92605028EA438E005F4446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4C06006DB4367576D5BD34 /* Pods_MeuDinheiro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92606928EA4392005F4446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF7BDF04D8D5FCC6F1AEF14 /* Pods_MeuDinheiroTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92607428EA4392005F4446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD5B72C86FD80AAE0EB8B3D /* Pods_MeuDinheiro_MeuDinheiroUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D03F928F8F3030CCF72EA09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */,
+				F7DC554046F21E4B3C60157F /* Pods_MeuDinheiro_MeuDinheiroUITests.framework */,
+				F257F7DBAC04C061679169FE /* Pods_MeuDinheiroTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6DC68628F0794F004BBE84 /* Favoritos */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D03028F079B100D66BB9 /* Controller */,
+				2A6DC68728F07960004BBE84 /* View */,
+			);
+			path = Favoritos;
+			sourceTree = "<group>";
+		};
+		2A6DC68728F07960004BBE84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A92604A28EA438E005F4446 = {
+			isa = PBXGroup;
+			children = (
+				2A92605528EA438E005F4446 /* MeuDinheiro */,
+				2A92606F28EA4392005F4446 /* MeuDinheiroTests */,
+				2A92607A28EA4392005F4446 /* MeuDinheiroUITests */,
+				2A92605428EA438E005F4446 /* Products */,
+				FC7E0A4CDEBEA882C96D624A /* Pods */,
+				1D03F928F8F3030CCF72EA09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A92605428EA438E005F4446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A92605328EA438E005F4446 /* MeuDinheiro.app */,
+				2A92606C28EA4392005F4446 /* MeuDinheiroTests.xctest */,
+				2A92607728EA4392005F4446 /* MeuDinheiroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A92605528EA438E005F4446 /* MeuDinheiro */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D06728F0968C00D66BB9 /* RendaMensal */,
+				2AA1D05A28F0954000D66BB9 /* GastosVariaveis */,
+				2AA1D04D28F092FA00D66BB9 /* GastosFixo */,
+				2AA1D03428F07AEE00D66BB9 /* Money */,
+				2A6DC68628F0794F004BBE84 /* Favoritos */,
+				2A2245BF28EE134500EF1C60 /* TabBarHome.swift */,
+				2A92605628EA438E005F4446 /* AppDelegate.swift */,
+				2A92605828EA438E005F4446 /* SceneDelegate.swift */,
+				2A92605A28EA438E005F4446 /* MyMoneyView.swift */,
+				2A92606228EA4391005F4446 /* Assets.xcassets */,
+				2A92606428EA4391005F4446 /* LaunchScreen.storyboard */,
+				2A92606728EA4391005F4446 /* Info.plist */,
+				2A92605F28EA438E005F4446 /* MeuDinheiro.xcdatamodeld */,
+			);
+			path = MeuDinheiro;
+			sourceTree = "<group>";
+		};
+		2A92606F28EA4392005F4446 /* MeuDinheiroTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A92607028EA4392005F4446 /* MeuDinheiroTests.swift */,
+				2A92607228EA4392005F4446 /* Info.plist */,
+			);
+			path = MeuDinheiroTests;
+			sourceTree = "<group>";
+		};
+		2A92607A28EA4392005F4446 /* MeuDinheiroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A92607B28EA4392005F4446 /* MeuDinheiroUITests.swift */,
+				2A92607D28EA4392005F4446 /* Info.plist */,
+			);
+			path = MeuDinheiroUITests;
+			sourceTree = "<group>";
+		};
+		2AA1D03028F079B100D66BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AA1D03428F07AEE00D66BB9 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D03628F07B0700D66BB9 /* Controller */,
+				2AA1D03528F07AFC00D66BB9 /* View */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		2AA1D03528F07AFC00D66BB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D04228F07B9B00D66BB9 /* MoneyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2AA1D03628F07B0700D66BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D03728F07B3D00D66BB9 /* MoneyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AA1D04D28F092FA00D66BB9 /* GastosFixo */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D04F28F0934500D66BB9 /* Views */,
+				2AA1D04E28F0933C00D66BB9 /* Controller */,
+			);
+			path = GastosFixo;
+			sourceTree = "<group>";
+		};
+		2AA1D04E28F0933C00D66BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D05528F0938F00D66BB9 /* GastosFixosViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AA1D04F28F0934500D66BB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D05028F0936E00D66BB9 /* GastosFixosView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AA1D05A28F0954000D66BB9 /* GastosVariaveis */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D05C28F0955700D66BB9 /* Controller */,
+				2AA1D05B28F0955000D66BB9 /* Views */,
+			);
+			path = GastosVariaveis;
+			sourceTree = "<group>";
+		};
+		2AA1D05B28F0955000D66BB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AA1D05C28F0955700D66BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D05D28F0958600D66BB9 /* GastosVariaveisViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AA1D06728F0968C00D66BB9 /* RendaMensal */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D06928F096A300D66BB9 /* Controller */,
+				2AA1D06828F0969900D66BB9 /* Views */,
+			);
+			path = RendaMensal;
+			sourceTree = "<group>";
+		};
+		2AA1D06828F0969900D66BB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D06A28F096C100D66BB9 /* RendaMensalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AA1D06928F096A300D66BB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1D07228F096FE00D66BB9 /* RendaMensalViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FC7E0A4CDEBEA882C96D624A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EB00960F9D50E43C50DCF3C /* Pods-MeuDinheiro.debug.xcconfig */,
+				C0F2E3BB3443222FE8C65FEE /* Pods-MeuDinheiro.release.xcconfig */,
+				E966F4EDD2AF7B1331CC462C /* Pods-MeuDinheiro-MeuDinheiroUITests.debug.xcconfig */,
+				C1F6043E043049A0A8743466 /* Pods-MeuDinheiro-MeuDinheiroUITests.release.xcconfig */,
+				AF4D604BC61CFF2141F25E87 /* Pods-MeuDinheiroTests.debug.xcconfig */,
+				6D98B04AFCA40D33CA5E2072 /* Pods-MeuDinheiroTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A92605228EA438E005F4446 /* MeuDinheiro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A92608028EA4392005F4446 /* Build configuration list for PBXNativeTarget "MeuDinheiro" */;
+			buildPhases = (
+				F3EAD0F3AE815580EA5133BA /* [CP] Check Pods Manifest.lock */,
+				2A92604F28EA438E005F4446 /* Sources */,
+				2A92605028EA438E005F4446 /* Frameworks */,
+				2A92605128EA438E005F4446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeuDinheiro;
+			productName = MeuDinheiro;
+			productReference = 2A92605328EA438E005F4446 /* MeuDinheiro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A92606B28EA4392005F4446 /* MeuDinheiroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A92608328EA4392005F4446 /* Build configuration list for PBXNativeTarget "MeuDinheiroTests" */;
+			buildPhases = (
+				CA7D0C537499B666DF41DF7A /* [CP] Check Pods Manifest.lock */,
+				2A92606828EA4392005F4446 /* Sources */,
+				2A92606928EA4392005F4446 /* Frameworks */,
+				2A92606A28EA4392005F4446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A92606E28EA4392005F4446 /* PBXTargetDependency */,
+			);
+			name = MeuDinheiroTests;
+			productName = MeuDinheiroTests;
+			productReference = 2A92606C28EA4392005F4446 /* MeuDinheiroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A92607628EA4392005F4446 /* MeuDinheiroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A92608628EA4392005F4446 /* Build configuration list for PBXNativeTarget "MeuDinheiroUITests" */;
+			buildPhases = (
+				8D011B018C5878D579691147 /* [CP] Check Pods Manifest.lock */,
+				2A92607328EA4392005F4446 /* Sources */,
+				2A92607428EA4392005F4446 /* Frameworks */,
+				2A92607528EA4392005F4446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A92607928EA4392005F4446 /* PBXTargetDependency */,
+			);
+			name = MeuDinheiroUITests;
+			productName = MeuDinheiroUITests;
+			productReference = 2A92607728EA4392005F4446 /* MeuDinheiroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A92604B28EA438E005F4446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2A92605228EA438E005F4446 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2A92606B28EA4392005F4446 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2A92605228EA438E005F4446;
+					};
+					2A92607628EA4392005F4446 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2A92605228EA438E005F4446;
+					};
+				};
+			};
+			buildConfigurationList = 2A92604E28EA438E005F4446 /* Build configuration list for PBXProject "MeuDinheiro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A92604A28EA438E005F4446;
+			productRefGroup = 2A92605428EA438E005F4446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A92605228EA438E005F4446 /* MeuDinheiro */,
+				2A92606B28EA4392005F4446 /* MeuDinheiroTests */,
+				2A92607628EA4392005F4446 /* MeuDinheiroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A92605128EA438E005F4446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92606628EA4391005F4446 /* LaunchScreen.storyboard in Resources */,
+				2A92606328EA4391005F4446 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92606A28EA4392005F4446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92607528EA4392005F4446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D011B018C5878D579691147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeuDinheiro-MeuDinheiroUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7D0C537499B666DF41DF7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeuDinheiroTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3EAD0F3AE815580EA5133BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeuDinheiro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A92604F28EA438E005F4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA1D07328F096FE00D66BB9 /* RendaMensalViewController.swift in Sources */,
+				2AA1D05E28F0958600D66BB9 /* GastosVariaveisViewController.swift in Sources */,
+				2A92605B28EA438E005F4446 /* MyMoneyView.swift in Sources */,
+				2AA1D05128F0936E00D66BB9 /* GastosFixosView.swift in Sources */,
+				2AA1D06B28F096C100D66BB9 /* RendaMensalView.swift in Sources */,
+				2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */,
+				2AA1D03828F07B3D00D66BB9 /* MoneyViewController.swift in Sources */,
+				2AA1D04328F07B9B00D66BB9 /* MoneyView.swift in Sources */,
+				2AA1D06328F095C000D66BB9 /* GastosVariaveisView.swift in Sources */,
+				2A92606128EA438E005F4446 /* MeuDinheiro.xcdatamodeld in Sources */,
+				2A92605728EA438E005F4446 /* AppDelegate.swift in Sources */,
+				2A92605928EA438E005F4446 /* SceneDelegate.swift in Sources */,
+				2A6DC67928F07896004BBE84 /* MoneyViewFavoreteViewController.swift in Sources */,
+				2A2245C028EE134500EF1C60 /* TabBarHome.swift in Sources */,
+				2AA1D05628F0938F00D66BB9 /* GastosFixosViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92606828EA4392005F4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92607128EA4392005F4446 /* MeuDinheiroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A92607328EA4392005F4446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A92607C28EA4392005F4446 /* MeuDinheiroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A92606E28EA4392005F4446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A92605228EA438E005F4446 /* MeuDinheiro */;
+			targetProxy = 2A92606D28EA4392005F4446 /* PBXContainerItemProxy */;
+		};
+		2A92607928EA4392005F4446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A92605228EA438E005F4446 /* MeuDinheiro */;
+			targetProxy = 2A92607828EA4392005F4446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A92606428EA4391005F4446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A92606528EA4391005F4446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A92607E28EA4392005F4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A92607F28EA4392005F4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A92608128EA4392005F4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB00960F9D50E43C50DCF3C /* Pods-MeuDinheiro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XHVM467GC;
+				INFOPLIST_FILE = MeuDinheiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diego-Fernando-S-S.MeuDinheiro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A92608228EA4392005F4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F2E3BB3443222FE8C65FEE /* Pods-MeuDinheiro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XHVM467GC;
+				INFOPLIST_FILE = MeuDinheiro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diego-Fernando-S-S.MeuDinheiro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2A92608428EA4392005F4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4D604BC61CFF2141F25E87 /* Pods-MeuDinheiroTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XHVM467GC;
+				INFOPLIST_FILE = MeuDinheiroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diego-Fernando-S-S.MeuDinheiroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeuDinheiro.app/MeuDinheiro";
+			};
+			name = Debug;
+		};
+		2A92608528EA4392005F4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D98B04AFCA40D33CA5E2072 /* Pods-MeuDinheiroTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XHVM467GC;
+				INFOPLIST_FILE = MeuDinheiroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diego-Fernando-S-S.MeuDinheiroTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeuDinheiro.app/MeuDinheiro";
+			};
+			name = Release;
+		};
+		2A92608728EA4392005F4446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E966F4EDD2AF7B1331CC462C /* Pods-MeuDinheiro-MeuDinheiroUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XHVM467GC;
+				INFOPLIST_FILE = MeuDinheiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diego-Fernando-S-S.MeuDinheiroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeuDinheiro;
+			};
+			name = Debug;
+		};
+		2A92608828EA4392005F4446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F6043E043049A0A8743466 /* Pods-MeuDinheiro-MeuDinheiroUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XHVM467GC;
+				INFOPLIST_FILE = MeuDinheiroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Diego-Fernando-S-S.MeuDinheiroUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeuDinheiro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A92604E28EA438E005F4446 /* Build configuration list for PBXProject "MeuDinheiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92607E28EA4392005F4446 /* Debug */,
+				2A92607F28EA4392005F4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A92608028EA4392005F4446 /* Build configuration list for PBXNativeTarget "MeuDinheiro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92608128EA4392005F4446 /* Debug */,
+				2A92608228EA4392005F4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A92608328EA4392005F4446 /* Build configuration list for PBXNativeTarget "MeuDinheiroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92608428EA4392005F4446 /* Debug */,
+				2A92608528EA4392005F4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A92608628EA4392005F4446 /* Build configuration list for PBXNativeTarget "MeuDinheiroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A92608728EA4392005F4446 /* Debug */,
+				2A92608828EA4392005F4446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A92605F28EA438E005F4446 /* MeuDinheiro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A92606028EA438E005F4446 /* MeuDinheiro.xcdatamodel */,
+			);
+			currentVersion = 2A92606028EA438E005F4446 /* MeuDinheiro.xcdatamodel */;
+			path = MeuDinheiro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A92604B28EA438E005F4446 /* Project object */;
+}
