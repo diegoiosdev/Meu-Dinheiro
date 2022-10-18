@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RendaMensalView: UIView {
+class MercadoView: UIView {
     
     lazy var textFieldRendaone:UITextField = {
        let text = UITextField()
@@ -70,7 +70,7 @@ class RendaMensalView: UIView {
     }()
     
     @objc func tappedButton(sender: UIButton){
-        print("deu certo o seu botão\(RendaMensalView())")
+
     }
     
     lazy var title: UILabel = {

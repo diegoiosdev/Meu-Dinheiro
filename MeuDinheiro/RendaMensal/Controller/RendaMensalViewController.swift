@@ -7,16 +7,15 @@
 
 import UIKit
 
-class MoneyViewRendaMensal: UIViewController {
-    var rendaMensalView: RendaMensalView?
+class MercadoViewController: UIViewController {
+    var mercadoView: MercadoView?
 
     override func loadView() {
-        self.rendaMensalView = RendaMensalView()
-        self.view = self.rendaMensalView
+        self.mercadoView = MercadoView()
+        self.view = self.mercadoView
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Renda Mensal"
     }
 
 }

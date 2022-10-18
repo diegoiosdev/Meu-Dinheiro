@@ -1,14 +1,6 @@
-//
-//  MoneyViewViewController.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/7/22.
-//
-
 import UIKit
 
 class MoneyViewController: UIViewController {
-    
     
     var moneyView: MoneyView?
     
@@ -19,6 +11,5 @@ class MoneyViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Meu Dinheiro"
     }
 }

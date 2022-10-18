@@ -1,10 +1,3 @@
-//
-//  MoneyView.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/7/22.
-//
-
 import UIKit
 
 class MoneyView: UIView {
@@ -24,7 +17,7 @@ class MoneyView: UIView {
     }()
     
     @objc func tappedButton(sender: UIButton){
-        print("deu certo o seu botão\(MoneyView())")
+        
     }
     
     lazy var title: UILabel = {
