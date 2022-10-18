@@ -1,28 +1,22 @@
-//
-//  GastosFixosView.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/7/22.
-//
-
 import UIKit
 
 class GastosFixosView: UIView {
     
-    lazy var buttonHome: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Aperte aqui", for: .normal)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 25)
-        button.setTitleColor(.white, for: .normal)
-        button.layer.borderColor = UIColor.blue.cgColor
-        button.layer.borderWidth = 4
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
-        button.addTarget(self, action: #selector(self.tappedButton(sender:)), for: .touchUpInside)
-        return button
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = .black
+        label.font = UIFont.boldSystemFont(ofSize: 30)
+        label.text = "Gastos fixos"
+        return label
     }()
     
+    lazy var tableView: UITableView = {
+       let table = UITableView()
+        table.translatesAutoresizingMaskIntoConstraints = false
+        return table
+    }()
+
     @objc func tappedButton(sender: UIButton){
         print("deu certo o seu botão\(GastosFixosView())")
     }
@@ -38,16 +32,12 @@ class GastosFixosView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.configSuperView()
-        self.configBackGround()
         self.setConstraints()
     }
  
      func configSuperView(){
-        addSubview(buttonHome)
-    }
-    
-     func configBackGround(){
-        self.backgroundColor = UIColor(red: 50/255, green: 120/255, blue: 104/255, alpha: 2.0)
+        addSubview(tableView)
+        addSubview(titleLabel)
     }
     
     required init?(coder: NSCoder) {
@@ -57,10 +47,14 @@ class GastosFixosView: UIView {
     func setConstraints(){
         NSLayoutConstraint.activate([
             
-            self.buttonHome.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            self.buttonHome.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.buttonHome.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
-            self.buttonHome.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
+            self.titleLabel.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 15),
+            self.titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 30),
+            self.titleLabel.topAnchor.constraint(equalTo:self.safeAreaLayoutGuide.topAnchor, constant: 2),
+                
+            self.tableView.topAnchor.constraint(equalTo: self.titleLabel.topAnchor),
+            self.tableView.leftAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leftAnchor),
+            self.tableView.rightAnchor.constraint(equalTo: self.safeAreaLayoutGuide.rightAnchor),
+            self.tableView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
         ])
     }
 }

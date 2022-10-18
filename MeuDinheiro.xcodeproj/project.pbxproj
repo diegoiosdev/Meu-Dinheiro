@@ -27,6 +27,7 @@
 		2AA1D06328F095C000D66BB9 /* GastosVariaveisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */; };
 		2AA1D06B28F096C100D66BB9 /* RendaMensalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D06A28F096C100D66BB9 /* RendaMensalView.swift */; };
 		2AA1D07328F096FE00D66BB9 /* RendaMensalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D07228F096FE00D66BB9 /* RendaMensalViewController.swift */; };
+		2AFA8D7E28FEFB3900A4C208 /* GastosFixosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA8D7D28FEFB3900A4C208 /* GastosFixosTableViewCell.swift */; };
 		6BD5B72C86FD80AAE0EB8B3D /* Pods_MeuDinheiro_MeuDinheiroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DC554046F21E4B3C60157F /* Pods_MeuDinheiro_MeuDinheiroUITests.framework */; };
 		CA4C06006DB4367576D5BD34 /* Pods_MeuDinheiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */; };
 		EDF7BDF04D8D5FCC6F1AEF14 /* Pods_MeuDinheiroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F257F7DBAC04C061679169FE /* Pods_MeuDinheiroTests.framework */; };
@@ -77,6 +78,7 @@
 		2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosVariaveisView.swift; sourceTree = "<group>"; };
 		2AA1D06A28F096C100D66BB9 /* RendaMensalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaMensalView.swift; sourceTree = "<group>"; };
 		2AA1D07228F096FE00D66BB9 /* RendaMensalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaMensalViewController.swift; sourceTree = "<group>"; };
+		2AFA8D7D28FEFB3900A4C208 /* GastosFixosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosFixosTableViewCell.swift; sourceTree = "<group>"; };
 		6D98B04AFCA40D33CA5E2072 /* Pods-MeuDinheiroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiroTests.release.xcconfig"; path = "Target Support Files/Pods-MeuDinheiroTests/Pods-MeuDinheiroTests.release.xcconfig"; sourceTree = "<group>"; };
 		9EB00960F9D50E43C50DCF3C /* Pods-MeuDinheiro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiro.debug.xcconfig"; path = "Target Support Files/Pods-MeuDinheiro/Pods-MeuDinheiro.debug.xcconfig"; sourceTree = "<group>"; };
 		AF4D604BC61CFF2141F25E87 /* Pods-MeuDinheiroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiroTests.debug.xcconfig"; path = "Target Support Files/Pods-MeuDinheiroTests/Pods-MeuDinheiroTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 		2AA1D04F28F0934500D66BB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2AFA8D7C28FEFB0E00A4C208 /* CustonCell  */,
 				2AA1D05028F0936E00D66BB9 /* GastosFixosView.swift */,
 			);
 			path = Views;
@@ -317,6 +320,14 @@
 				2AA1D07228F096FE00D66BB9 /* RendaMensalViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2AFA8D7C28FEFB0E00A4C208 /* CustonCell  */ = {
+			isa = PBXGroup;
+			children = (
+				2AFA8D7D28FEFB3900A4C208 /* GastosFixosTableViewCell.swift */,
+			);
+			path = "CustonCell ";
 			sourceTree = "<group>";
 		};
 		FC7E0A4CDEBEA882C96D624A /* Pods */ = {
@@ -540,6 +551,7 @@
 				2AA1D05128F0936E00D66BB9 /* GastosFixosView.swift in Sources */,
 				2AA1D06B28F096C100D66BB9 /* RendaMensalView.swift in Sources */,
 				2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */,
+				2AFA8D7E28FEFB3900A4C208 /* GastosFixosTableViewCell.swift in Sources */,
 				2AA1D03828F07B3D00D66BB9 /* MoneyViewController.swift in Sources */,
 				2AA1D04328F07B9B00D66BB9 /* MoneyView.swift in Sources */,
 				2AA1D06328F095C000D66BB9 /* GastosVariaveisView.swift in Sources */,
