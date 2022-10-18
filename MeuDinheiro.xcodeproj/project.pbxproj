@@ -221,7 +221,7 @@
 				2AA1D06728F0968C00D66BB9 /* Mercado */,
 				2AA1D04D28F092FA00D66BB9 /* GastosFixo */,
 				2AA1D05A28F0954000D66BB9 /* GastosVariaveis */,
-				2AA1D03428F07AEE00D66BB9 /* Money */,
+				2AA1D03428F07AEE00D66BB9 /* Principal */,
 				2A6DC68628F0794F004BBE84 /* Favoritos */,
 				2A13E86228FEF7AF0057ED9C /* Service */,
 				2A92606728EA4391005F4446 /* Info.plist */,
@@ -256,13 +256,13 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		2AA1D03428F07AEE00D66BB9 /* Money */ = {
+		2AA1D03428F07AEE00D66BB9 /* Principal */ = {
 			isa = PBXGroup;
 			children = (
 				2AA1D03628F07B0700D66BB9 /* Controller */,
 				2AA1D03528F07AFC00D66BB9 /* View */,
 			);
-			path = Money;
+			path = Principal;
 			sourceTree = "<group>";
 		};
 		2AA1D03528F07AFC00D66BB9 /* View */ = {

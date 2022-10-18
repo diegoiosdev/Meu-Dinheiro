@@ -15,7 +15,7 @@ class TabBarHome: UITabBarController {
         self.tabBar.backgroundColor = UIColor(red: 50/255, green: 120/255, blue: 104/255, alpha: 2.0)
         self.tabBar.isTranslucent = true
         guard let items = tabBar.items else {return}
-        items[0].title = "Meu Dinheiro"
+        items[0].title = "Principal"
         items[0].image = UIImage(systemName: "house")
         items[1].title = "Favoritos"
         items[1].image = UIImage(systemName: "note")
