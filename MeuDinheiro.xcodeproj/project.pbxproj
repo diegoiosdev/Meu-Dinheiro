@@ -11,9 +11,6 @@
 		2A1549DB28FF42FF00CD0615 /* ApiServicoMercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1549DA28FF42FF00CD0615 /* ApiServicoMercado.swift */; };
 		2A1549E328FF444000CD0615 /* NetworingMercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1549E228FF444000CD0615 /* NetworingMercado.swift */; };
 		2A1DC39128FF60E300E23F2E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1DC39028FF60E300E23F2E /* Alamofire */; };
-		2A1DC39728FF612300E23F2E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1DC39628FF612300E23F2E /* SnapKit-Dynamic */; };
-		2A1DC39828FF612300E23F2E /* SnapKit-Dynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2A1DC39628FF612300E23F2E /* SnapKit-Dynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		2A1DC39A28FF612300E23F2E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1DC39928FF612300E23F2E /* SnapKit */; };
 		2A2245C028EE134500EF1C60 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2245BF28EE134500EF1C60 /* TabBarHome.swift */; };
 		2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */; };
 		2A6DC67928F07896004BBE84 /* MoneyViewFavoreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */; };
@@ -63,7 +60,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2A1DC39828FF612300E23F2E /* SnapKit-Dynamic in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,9 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4C06006DB4367576D5BD34 /* Pods_MeuDinheiro.framework in Frameworks */,
-				2A1DC39A28FF612300E23F2E /* SnapKit in Frameworks */,
 				2A1DC39128FF60E300E23F2E /* Alamofire in Frameworks */,
-				2A1DC39728FF612300E23F2E /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,8 +400,6 @@
 			name = MeuDinheiro;
 			packageProductDependencies = (
 				2A1DC39028FF60E300E23F2E /* Alamofire */,
-				2A1DC39628FF612300E23F2E /* SnapKit-Dynamic */,
-				2A1DC39928FF612300E23F2E /* SnapKit */,
 			);
 			productName = MeuDinheiro;
 			productReference = 2A92605328EA438E005F4446 /* MeuDinheiro.app */;
@@ -484,7 +476,6 @@
 			mainGroup = 2A92604A28EA438E005F4446;
 			packageReferences = (
 				2A1DC38F28FF60E300E23F2E /* XCRemoteSwiftPackageReference "Alamofire" */,
-				2A1DC39528FF612300E23F2E /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 2A92605428EA438E005F4446 /* Products */;
 			projectDirPath = "";
@@ -956,14 +947,6 @@
 				minimumVersion = 5.6.2;
 			};
 		};
-		2A1DC39528FF612300E23F2E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -971,16 +954,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2A1DC38F28FF60E300E23F2E /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		2A1DC39628FF612300E23F2E /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A1DC39528FF612300E23F2E /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-		2A1DC39928FF612300E23F2E /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A1DC39528FF612300E23F2E /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 

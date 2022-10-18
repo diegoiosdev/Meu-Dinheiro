@@ -17,13 +17,14 @@ class GastosFixosView: UIView {
         return table
     }()
     
-    lazy var title: UILabel = {
-       let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .red
-        label.font = UIFont.boldSystemFont(ofSize: 20)
-        return label
+    lazy var imageHome: UIImageView = {
+        let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.image = UIImage(named: "dollar02")
+        image.contentMode = .scaleAspectFit
+       return image
     }()
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -35,6 +36,7 @@ class GastosFixosView: UIView {
      func configSuperView(){
         addSubview(tableView)
         addSubview(titleLabel)
+        addSubview(imageHome)
     }
     
     func configBackGround() {
@@ -51,7 +53,13 @@ class GastosFixosView: UIView {
             self.titleLabel.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 15),
             self.titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 30),
             self.titleLabel.topAnchor.constraint(equalTo:self.safeAreaLayoutGuide.topAnchor, constant: 2),
-                
+               
+            self.imageHome.leadingAnchor.constraint(equalTo: self.titleLabel.leadingAnchor, constant: 10),
+            self.imageHome.trailingAnchor.constraint(equalTo: self.titleLabel.trailingAnchor, constant: 200),
+            self.imageHome.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            self.imageHome.heightAnchor.constraint(equalToConstant: 50),
+            self.imageHome.widthAnchor.constraint(equalToConstant: 50),
+         
             self.tableView.topAnchor.constraint(equalTo: self.titleLabel.topAnchor, constant: 50),
             self.tableView.leftAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leftAnchor),
             self.tableView.rightAnchor.constraint(equalTo: self.safeAreaLayoutGuide.rightAnchor),

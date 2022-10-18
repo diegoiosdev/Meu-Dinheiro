@@ -1,10 +1,3 @@
-//
-//  GastosVariaveisView.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/7/22.
-//
-
 import UIKit
 
 class GastosVariaveisView: UIView {
