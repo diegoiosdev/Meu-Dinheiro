@@ -1,10 +1,3 @@
-//
-//  MoneyViewFavoreteViewController.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/6/22.
-//MoneyViewFavoreteViewController.swift
-
 import UIKit
 
 class MoneyViewFavorete: UIViewController  {
@@ -18,8 +11,5 @@ class MoneyViewFavorete: UIViewController  {
     
         override func viewDidLoad() {
             super.viewDidLoad()
-//            moneyFavoreteView?.delegate = self
-            title = "Favoritos"
         }
     }
-

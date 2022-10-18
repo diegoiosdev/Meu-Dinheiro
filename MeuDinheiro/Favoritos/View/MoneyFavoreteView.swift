@@ -1,47 +1,28 @@
-//
-//  MoneyFavoreteView.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/6/22.
-//
-
 import UIKit
 
-//protocol MoneyFavoreteViewProtocol: AnyObject {
-//    
-//}
-
 class MoneyFavoreteView: UIView {
-
-//    var delegate:MoneyFavoreteViewProtocol?
-//    func delegate(delegate: MoneyFavoreteViewProtocol?){
-//        self.delegate = delegate
-//    }
-//
-    lazy var buttonHome: UIButton = {
-        let button = UIButton()
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Aperte aqui", for: .normal)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 25)
-        button.setTitleColor(.black, for: .normal)
-        button.layer.borderColor = UIColor.blue.cgColor
-        button.layer.borderWidth = 4
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
-        button.addTarget(self, action: #selector(self.tappedButton(sender:)), for: .touchUpInside)
-        return button
+    
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = .black
+        label.font = UIFont.boldSystemFont(ofSize: 30)
+        label.text = "Gastos variáveis"
+        return label
     }()
     
-    @objc func tappedButton(sender: UIButton){
-        print("deu certo o seu botão\(MoneyFavoreteView())")
-    }
+    lazy var tableView: UITableView = {
+       let table = UITableView()
+        table.translatesAutoresizingMaskIntoConstraints = false
+        return table
+    }()
     
-    lazy var title: UILabel = {
-       let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .red
-        label.font = UIFont.boldSystemFont(ofSize: 20)
-        return label
+    lazy var imageHome: UIImageView = {
+        let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.image = UIImage(named: "money-1")
+        image.contentMode = .scaleAspectFit
+       return image
     }()
     
     override init(frame: CGRect) {
@@ -52,7 +33,9 @@ class MoneyFavoreteView: UIView {
     }
  
      func configSuperView(){
-        addSubview(buttonHome)
+        addSubview(titleLabel)
+        addSubview(tableView)
+        addSubview(imageHome)
     }
     
      func configBackGround(){
@@ -66,17 +49,20 @@ class MoneyFavoreteView: UIView {
     func setConstraints(){
         NSLayoutConstraint.activate([
             
-            self.buttonHome.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            self.buttonHome.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            self.buttonHome.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
-            self.buttonHome.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
-    
-            
-            
-//            self.title.heightAnchor.constraint(equalTo: self.safeAreaLayoutGuide.heightAnchor,constant: 5),
-//            self.title.widthAnchor.constraint(equalTo: self.safeAreaLayoutGuide.widthAnchor),
-//            self.title.centerXAnchor.constraint(equalTo: self.safeAreaLayoutGuide.centerXAnchor, constant: 10),
-//            self.title.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor, constant: -20),
+            self.titleLabel.leadingAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leadingAnchor, constant: 15),
+            self.titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 30),
+            self.titleLabel.topAnchor.constraint(equalTo:self.safeAreaLayoutGuide.topAnchor, constant: 2),
+               
+            self.imageHome.leadingAnchor.constraint(equalTo: self.titleLabel.leadingAnchor, constant: 10),
+            self.imageHome.trailingAnchor.constraint(equalTo: self.titleLabel.trailingAnchor, constant: 200),
+            self.imageHome.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+            self.imageHome.heightAnchor.constraint(equalToConstant: 50),
+            self.imageHome.widthAnchor.constraint(equalToConstant: 50),
+         
+            self.tableView.topAnchor.constraint(equalTo: self.titleLabel.topAnchor, constant: 50),
+            self.tableView.leftAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leftAnchor),
+            self.tableView.rightAnchor.constraint(equalTo: self.safeAreaLayoutGuide.rightAnchor),
+            self.tableView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),
         ])
     }
 }
