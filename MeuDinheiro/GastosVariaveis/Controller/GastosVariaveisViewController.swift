@@ -12,6 +12,4 @@ class MoneyViewGastosVariaveis: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-
 }

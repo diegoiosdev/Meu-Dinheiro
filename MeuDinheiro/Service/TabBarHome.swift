@@ -21,7 +21,7 @@ class TabBarHome: UITabBarController {
         items[1].image = UIImage(systemName: "note")
         items[2].title = "Gastos Fixos"
         items[2].image = UIImage(systemName: "hourglass")
-        items[3].title = "Receitas"
+        items[3].title = "Gastos Variáveis"
         items[3].image = UIImage(systemName: "book")
         items[4].title = "Mercado"
         items[4].image = UIImage(systemName: "banknote")
