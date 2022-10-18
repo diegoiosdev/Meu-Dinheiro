@@ -23,6 +23,41 @@ class GastosVariaveisView: UIView {
         return button
     }()
     
+    lazy var textFieldRendatwo:UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    lazy var textFieldRendathree:UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    lazy var textFieldRendaforh
+        :UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    
     @objc func tappedButton(sender: UIButton){
         print("deu certo o seu botão\(GastosVariaveisView())")
     }
