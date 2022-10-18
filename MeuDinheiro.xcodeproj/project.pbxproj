@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A13E85328FEEDC30057ED9C /* gastosmensais.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A13E85228FEEDC30057ED9C /* gastosmensais.json */; };
 		2A2245C028EE134500EF1C60 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2245BF28EE134500EF1C60 /* TabBarHome.swift */; };
 		2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */; };
 		2A6DC67928F07896004BBE84 /* MoneyViewFavoreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeuDinheiro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A13E85228FEEDC30057ED9C /* gastosmensais.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gastosmensais.json; sourceTree = "<group>"; };
 		2A2245BF28EE134500EF1C60 /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
 		2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyFavoreteView.swift; sourceTree = "<group>"; };
 		2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewFavoreteViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2A13E86228FEF7AF0057ED9C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2A13E85228FEEDC30057ED9C /* gastosmensais.json */,
+				2A92606428EA4391005F4446 /* LaunchScreen.storyboard */,
+				2A92606228EA4391005F4446 /* Assets.xcassets */,
+				2A92605A28EA438E005F4446 /* MyMoneyView.swift */,
+				2A92605828EA438E005F4446 /* SceneDelegate.swift */,
+				2A92605628EA438E005F4446 /* AppDelegate.swift */,
+				2A2245BF28EE134500EF1C60 /* TabBarHome.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		2A6DC68628F0794F004BBE84 /* Favoritos */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,17 +181,12 @@
 		2A92605528EA438E005F4446 /* MeuDinheiro */ = {
 			isa = PBXGroup;
 			children = (
+				2AA1D04D28F092FA00D66BB9 /* GastosFixo */,
 				2AA1D06728F0968C00D66BB9 /* RendaMensal */,
 				2AA1D05A28F0954000D66BB9 /* GastosVariaveis */,
-				2AA1D04D28F092FA00D66BB9 /* GastosFixo */,
 				2AA1D03428F07AEE00D66BB9 /* Money */,
 				2A6DC68628F0794F004BBE84 /* Favoritos */,
-				2A2245BF28EE134500EF1C60 /* TabBarHome.swift */,
-				2A92605628EA438E005F4446 /* AppDelegate.swift */,
-				2A92605828EA438E005F4446 /* SceneDelegate.swift */,
-				2A92605A28EA438E005F4446 /* MyMoneyView.swift */,
-				2A92606228EA4391005F4446 /* Assets.xcassets */,
-				2A92606428EA4391005F4446 /* LaunchScreen.storyboard */,
+				2A13E86228FEF7AF0057ED9C /* Service */,
 				2A92606728EA4391005F4446 /* Info.plist */,
 				2A92605F28EA438E005F4446 /* MeuDinheiro.xcdatamodeld */,
 			);
@@ -428,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A92606628EA4391005F4446 /* LaunchScreen.storyboard in Resources */,
+				2A13E85328FEEDC30057ED9C /* gastosmensais.json in Resources */,
 				2A92606328EA4391005F4446 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

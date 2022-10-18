@@ -9,6 +9,52 @@ import UIKit
 
 class RendaMensalView: UIView {
     
+    lazy var textFieldRendaone:UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    lazy var textFieldRendatwo:UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    lazy var textFieldRendathree:UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    lazy var textFieldRendaforh
+        :UITextField = {
+       let text = UITextField()
+        text.translatesAutoresizingMaskIntoConstraints = false
+        text.autocorrectionType = .no
+        text.backgroundColor = .white
+        text.borderStyle = .roundedRect
+        text.placeholder = "Digite a primeira renda."
+        text.textColor = .black
+        return text
+    }()
+    
+    
     lazy var buttonHome: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
