@@ -16,10 +16,6 @@ class GastosFixosView: UIView {
         table.translatesAutoresizingMaskIntoConstraints = false
         return table
     }()
-
-    @objc func tappedButton(sender: UIButton){
-        print("deu certo o seu botão\(GastosFixosView())")
-    }
     
     lazy var title: UILabel = {
        let label = UILabel()
@@ -33,12 +29,17 @@ class GastosFixosView: UIView {
         super.init(frame: frame)
         self.configSuperView()
         self.setConstraints()
+        self.configBackGround()
     }
  
      func configSuperView(){
         addSubview(tableView)
         addSubview(titleLabel)
     }
+    
+    func configBackGround() {
+       self.backgroundColor = UIColor(red: 50/255, green: 120/255, blue: 104/255, alpha: 2.0)
+   }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -51,7 +52,7 @@ class GastosFixosView: UIView {
             self.titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: 30),
             self.titleLabel.topAnchor.constraint(equalTo:self.safeAreaLayoutGuide.topAnchor, constant: 2),
                 
-            self.tableView.topAnchor.constraint(equalTo: self.titleLabel.topAnchor),
+            self.tableView.topAnchor.constraint(equalTo: self.titleLabel.topAnchor, constant: 50),
             self.tableView.leftAnchor.constraint(equalTo: self.safeAreaLayoutGuide.leftAnchor),
             self.tableView.rightAnchor.constraint(equalTo: self.safeAreaLayoutGuide.rightAnchor),
             self.tableView.bottomAnchor.constraint(equalTo: self.safeAreaLayoutGuide.bottomAnchor),

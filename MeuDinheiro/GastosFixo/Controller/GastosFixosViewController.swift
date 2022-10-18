@@ -1,10 +1,3 @@
-//
-//  GastosFixosViewController.swift
-//  MeuDinheiro
-//
-//  Created by Diego Fernando on 10/7/22.
-//
-
 import UIKit
 
 class MoneyViewGastosFixo: UIViewController {
@@ -19,5 +12,4 @@ class MoneyViewGastosFixo: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 }

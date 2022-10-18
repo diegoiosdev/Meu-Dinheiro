@@ -20,6 +20,5 @@ class MercadoViewController: UIViewController {
 
 extension MercadoViewController:  NetworingMercadoProtocol {
     func showinfomercado() {
-        
     }
 }
