@@ -22,6 +22,7 @@ class MercadoView: UIView {
     lazy var tableView: UITableView = {
        let table = UITableView()
         table.translatesAutoresizingMaskIntoConstraints = false
+        table.register(MercadoTableViewCell.self, forCellReuseIdentifier: MercadoTableViewCell.identifier)
         return table
     }()
     
@@ -30,6 +31,11 @@ class MercadoView: UIView {
         self.configSuperView()
         self.setConstraints()
         self.configBackGround()
+    }
+    
+    public func configTableProtocol(delegate: UITableViewDelegate, dataSource: UITableViewDataSource) {
+        self.tableView.delegate = delegate
+        self.tableView.dataSource = dataSource
     }
  
      func configSuperView(){
