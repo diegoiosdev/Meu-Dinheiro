@@ -7,7 +7,7 @@ class MoneyFavoreteView: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
         label.font = UIFont.boldSystemFont(ofSize: 30)
-        label.text = "Gastos variáveis"
+        label.text = "Favoritos"
         return label
     }()
     
