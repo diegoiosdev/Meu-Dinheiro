@@ -1,10 +1,6 @@
-import Foundation
+import UIKit
 
-struct ApiServicoMercado: Decodable {
-    
-    let info:String
-    let title:String
-    let labels: String
+struct labels: Decodable {
     let bid:String
     let ask: String
     let varBid:String
@@ -12,3 +8,4 @@ struct ApiServicoMercado: Decodable {
     let high:String
     let low:String
 }
+
