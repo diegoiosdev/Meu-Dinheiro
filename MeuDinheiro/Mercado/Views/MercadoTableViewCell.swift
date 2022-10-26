@@ -60,11 +60,11 @@ class MercadoTableViewCell: UITableViewCell {
     
     func addSubView() {
         self.contentView.addSubview(bidLabel)
-        self.contentView.addSubview(askLabel)
-        self.contentView.addSubview(varBidLabel)
-        self.contentView.addSubview(pctChangeLabel)
-        self.contentView.addSubview(highLabel)
-        self.contentView.addSubview(lowLabel)
+//        self.contentView.addSubview(askLabel)
+//        self.contentView.addSubview(varBidLabel)
+//        self.contentView.addSubview(pctChangeLabel)
+//        self.contentView.addSubview(highLabel)
+//        self.contentView.addSubview(lowLabel)
     }
     
     required init?(coder: NSCoder) {

@@ -15,8 +15,8 @@ class MoneyView: UIView {
         let table = UITableView(frame: .zero, style: .insetGrouped)
         table.translatesAutoresizingMaskIntoConstraints = false
 //        table.separatorStyle = .none // retira as linhas
-        table.separatorInset = .init(top: 0, left: 100, bottom: 0, right: 10) // posicao da telas
-        table.register(MercadoTableViewCell.self, forCellReuseIdentifier: MercadoTableViewCell.identifier)
+        table.separatorInset = .init(top: 0, left: 50, bottom: 0, right: 10) // posicao da telas
+//        table.register(MercadoTableViewCell.self, forCellReuseIdentifier: MercadoTableViewCell.identifier)
         return table
     }()
     
@@ -37,8 +37,8 @@ class MoneyView: UIView {
         image.clipsToBounds = true
         image.layer.cornerRadius = image.frame.width/2
         image.contentMode = .scaleToFill
-        image.layer.cornerRadius = 45
-        image.image = UIImage(named: "diego")
+        image.layer.cornerRadius = 30
+        image.image = UIImage(named: "man-user")
        return image
     }()
     
@@ -46,7 +46,7 @@ class MoneyView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 17)
+        label.font = UIFont.boldSystemFont(ofSize: 15)
         label.text = "O saldo em conta é R$ 2.000,00"
         return label
     }()
@@ -103,15 +103,14 @@ class MoneyView: UIView {
             self.tableView.leadingAnchor.constraint(equalTo:leadingAnchor),
             self.tableView.trailingAnchor.constraint(equalTo:trailingAnchor),
             self.tableView.bottomAnchor.constraint(equalTo:bottomAnchor),
-            
         ])
     }
 }
 
-extension MoneyView: UITableViewDelegate, UITableViewDataSource{
+extension MoneyView: UITableViewDelegate, UITableViewDataSource {
    
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 3
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -139,7 +138,7 @@ extension MoneyView: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        if section == 4 {
+        if section == 2 {
             return "Você no controle!"
         }
         return nil
