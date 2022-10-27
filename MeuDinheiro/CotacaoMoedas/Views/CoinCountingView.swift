@@ -42,6 +42,11 @@ class CoinCountingView: UIView {
     func configBackGround(){
        self.backgroundColor = UIColor(red: 50/255, green: 120/255, blue: 104/255, alpha: 2.0)
    }
+    
+    public func configtableViewProtocol(delegate: UITableViewDelegate, dataSouse: UITableViewDataSource) {
+        self.tableView.delegate = delegate
+        self.tableView.dataSource = dataSouse
+    }
    
     
     func setConstraints(){

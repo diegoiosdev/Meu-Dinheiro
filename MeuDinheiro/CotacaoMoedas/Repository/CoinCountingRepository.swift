@@ -7,24 +7,27 @@
 
 import UIKit
 
+protocol  listaMoedasProtocol {
+    func mostrarMoedas(listaMoedas: [labels])
+}
+
 class CoinCountingRepository {
+    var delegate: listaMoedasProtocol?
     
     func getUsers() {
-        
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else { return }
-        let task = URLSession.shared.dataTask(with: url) {[ weak self ] data, _, error  in
+        guard let url = URL(string: "https://economia.awesomeapi.com.br") else { return }
+        let task = URLSession.shared.dataTask(with: url) { data, _, error  in
             guard let data = data, error == nil else {
-        
-//                self?.presenter?.interactorDidFecthUsers(with:.failure(FetchError.failed))
+                print("\((String(describing: error)))")
                 return
               }
-            
             do {
-                let entities = try JSONDecoder().decode([labels].self, from: data)
-//                self?.presenter?.interactorDidFecthUsers(with: .success(entities))
+                
+                let moedas = try? JSONDecoder().decode([labels].self, from: data)
+                self.delegate?.mostrarMoedas(listaMoedas: moedas ??  [])
             }
             catch {
-//                self?.presenter?.interactorDidFecthUsers(with:.failure(error))
+                print("\((String(describing: error)))")
                 }
             }
         
