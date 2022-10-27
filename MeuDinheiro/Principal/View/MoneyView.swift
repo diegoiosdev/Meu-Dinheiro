@@ -6,7 +6,7 @@ class MoneyView: UIView {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textColor = .black
-        label.font = UIFont.boldSystemFont(ofSize: 30)
+        label.font = UIFont.boldSystemFont(ofSize: 20)
         label.text = "Principal"
         return label
     }()
@@ -37,7 +37,7 @@ class MoneyView: UIView {
         image.clipsToBounds = true
         image.layer.cornerRadius = image.frame.width/2
         image.contentMode = .scaleToFill
-        image.layer.cornerRadius = 30
+        image.layer.cornerRadius = 50
         image.image = UIImage(named: "man-user")
        return image
     }()
@@ -110,7 +110,7 @@ class MoneyView: UIView {
 extension MoneyView: UITableViewDelegate, UITableViewDataSource {
    
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 2
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if #available(iOS 14, *) {
             UINavigationBar.appearance().scrollEdgeAppearance = UINavigationBarAppearance()
         }
-        
+//
 //        guard let windowScene = (scene as? UIWindowScene) else { return }
 //        let userrouter = UserRouter.start()
 //        let initialVC = userrouter.Entry

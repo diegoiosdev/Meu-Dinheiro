@@ -25,7 +25,7 @@ class UserRouter: AnyRouter {
         let router = UserRouter()
         
         // Assing VIP
-        var view: AnyView = TabBarHome() as! AnyView
+        var view: AnyView = UserViewController()
         var presenter: AnyPresenter = UserPresenter()
         var interactor: AnyInteractor = UserInteractor()
         

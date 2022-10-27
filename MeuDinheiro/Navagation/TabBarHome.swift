@@ -11,7 +11,7 @@ class TabBarHome: UITabBarController {
     }
     
     private func setupTabBarController(){
-        self.setViewControllers([MoneyViewController(), MoneyViewFavorete(),MoneyViewGastosFixo(),MoneyViewGastosVariaveis(), UserViewController()], animated: false)
+        self.setViewControllers([MoneyViewController(), MoneyViewFavorete(),MoneyViewGastosFixo(),MoneyViewGastosVariaveis(), CoinCountingViewController()], animated: false)
         self.tabBar.backgroundColor = UIColor(red: 50/255, green: 120/255, blue: 104/255, alpha: 2.0)
         self.tabBar.isTranslucent = true
         guard let items = tabBar.items else {return}
@@ -23,7 +23,7 @@ class TabBarHome: UITabBarController {
         items[2].image = UIImage(systemName: "hourglass")
         items[3].title = "Gastos Variáveis"
         items[3].image = UIImage(systemName: "book")
-        items[4].title = "Mercado"
+        items[4].title = "Cotação"
         items[4].image = UIImage(systemName: "banknote")
        }
    }

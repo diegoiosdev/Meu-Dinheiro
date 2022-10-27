@@ -38,5 +38,4 @@ class UserInteractor: AnyInteractor {
         
           task.resume()
         }
-    
 }
