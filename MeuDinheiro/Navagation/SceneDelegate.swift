@@ -16,7 +16,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if #available(iOS 14, *) {
             UINavigationBar.appearance().scrollEdgeAppearance = UINavigationBarAppearance()
         }
-        
+//
+//        guard let windowScene = (scene as? UIWindowScene) else { return }
+//        let userrouter = UserRouter.start()
+//        let initialVC = userrouter.Entry
+//        let window = UIWindow(windowScene: windowScene)
+//        window.rootViewController = initialVC
+//        self.window = window
+//        window.makeKeyAndVisible()
         guard let windowScene  = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         let vc :TabBarHome = TabBarHome()

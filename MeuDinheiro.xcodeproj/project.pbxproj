@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0CCB9C290831260058B22E /* interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0CCB9B290831260058B22E /* interactor.swift */; };
+		2A0E2E3729085D15004AC58A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0E2E3629085D15004AC58A /* Presenter.swift */; };
 		2A13E85328FEEDC30057ED9C /* gastosmensais.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A13E85228FEEDC30057ED9C /* gastosmensais.json */; };
-		2A1549DB28FF42FF00CD0615 /* ApiServicoMercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1549DA28FF42FF00CD0615 /* ApiServicoMercado.swift */; };
-		2A1549E328FF444000CD0615 /* NetworingMercado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1549E228FF444000CD0615 /* NetworingMercado.swift */; };
+		2A1549DB28FF42FF00CD0615 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1549DA28FF42FF00CD0615 /* User.swift */; };
 		2A1DC39128FF60E300E23F2E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2A1DC39028FF60E300E23F2E /* Alamofire */; };
 		2A2245C028EE134500EF1C60 /* TabBarHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2245BF28EE134500EF1C60 /* TabBarHome.swift */; };
+		2A59DA3F2909886200535D5F /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA3E2909886200535D5F /* View.swift */; };
+		2A59DA482909892100535D5F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA472909892100535D5F /* Router.swift */; };
+		2A59DA74290AD1F400535D5F /* CoinCountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA73290AD1F400535D5F /* CoinCountingViewController.swift */; };
+		2A59DA7B290AD22C00535D5F /* CoinCountingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA7A290AD22C00535D5F /* CoinCountingView.swift */; };
+		2A59DA80290AD26400535D5F /* CoinCountingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA7F290AD26400535D5F /* CoinCountingModel.swift */; };
+		2A59DA87290AD28100535D5F /* CoinCountingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA86290AD28100535D5F /* CoinCountingPresenter.swift */; };
+		2A59DA8E290AD2C500535D5F /* CoinCountingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59DA8D290AD2C500535D5F /* CoinCountingRepository.swift */; };
 		2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */; };
 		2A6DC67928F07896004BBE84 /* MoneyViewFavoreteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */; };
 		2A92605728EA438E005F4446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605628EA438E005F4446 /* AppDelegate.swift */; };
 		2A92605928EA438E005F4446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605828EA438E005F4446 /* SceneDelegate.swift */; };
-		2A92605B28EA438E005F4446 /* MyMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605A28EA438E005F4446 /* MyMoneyView.swift */; };
 		2A92606128EA438E005F4446 /* MeuDinheiro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A92605F28EA438E005F4446 /* MeuDinheiro.xcdatamodeld */; };
 		2A92606328EA4391005F4446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A92606228EA4391005F4446 /* Assets.xcassets */; };
 		2A92606628EA4391005F4446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A92606428EA4391005F4446 /* LaunchScreen.storyboard */; };
@@ -28,9 +35,7 @@
 		2AA1D05628F0938F00D66BB9 /* GastosFixosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D05528F0938F00D66BB9 /* GastosFixosViewController.swift */; };
 		2AA1D05E28F0958600D66BB9 /* GastosVariaveisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D05D28F0958600D66BB9 /* GastosVariaveisViewController.swift */; };
 		2AA1D06328F095C000D66BB9 /* GastosVariaveisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */; };
-		2AA1D06B28F096C100D66BB9 /* MercadoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D06A28F096C100D66BB9 /* MercadoView.swift */; };
-		2AA1D07328F096FE00D66BB9 /* MercadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA1D07228F096FE00D66BB9 /* MercadoViewController.swift */; };
-		2AD57ABC29007EB80048934C /* MercadoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD57ABB29007EB80048934C /* MercadoTableViewCell.swift */; };
+		2AD57AC6290326B60048934C /* PrincipalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD57AC5290326B60048934C /* PrincipalTableViewCell.swift */; };
 		2AFA8D7E28FEFB3900A4C208 /* GastosFixosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFA8D7D28FEFB3900A4C208 /* GastosFixosTableViewCell.swift */; };
 		6BD5B72C86FD80AAE0EB8B3D /* Pods_MeuDinheiro_MeuDinheiroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DC554046F21E4B3C60157F /* Pods_MeuDinheiro_MeuDinheiroUITests.framework */; };
 		CA4C06006DB4367576D5BD34 /* Pods_MeuDinheiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */; };
@@ -69,16 +74,23 @@
 
 /* Begin PBXFileReference section */
 		02A004F741878DF4BD3933AB /* Pods_MeuDinheiro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeuDinheiro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0CCB9B290831260058B22E /* interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interactor.swift; sourceTree = "<group>"; };
+		2A0E2E3629085D15004AC58A /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		2A13E85228FEEDC30057ED9C /* gastosmensais.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gastosmensais.json; sourceTree = "<group>"; };
-		2A1549DA28FF42FF00CD0615 /* ApiServicoMercado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServicoMercado.swift; sourceTree = "<group>"; };
-		2A1549E228FF444000CD0615 /* NetworingMercado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworingMercado.swift; sourceTree = "<group>"; };
+		2A1549DA28FF42FF00CD0615 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2A2245BF28EE134500EF1C60 /* TabBarHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHome.swift; sourceTree = "<group>"; };
+		2A59DA3E2909886200535D5F /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		2A59DA472909892100535D5F /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		2A59DA73290AD1F400535D5F /* CoinCountingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountingViewController.swift; sourceTree = "<group>"; };
+		2A59DA7A290AD22C00535D5F /* CoinCountingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountingView.swift; sourceTree = "<group>"; };
+		2A59DA7F290AD26400535D5F /* CoinCountingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountingModel.swift; sourceTree = "<group>"; };
+		2A59DA86290AD28100535D5F /* CoinCountingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountingPresenter.swift; sourceTree = "<group>"; };
+		2A59DA8D290AD2C500535D5F /* CoinCountingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCountingRepository.swift; sourceTree = "<group>"; };
 		2A6DC67328F07887004BBE84 /* MoneyFavoreteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyFavoreteView.swift; sourceTree = "<group>"; };
 		2A6DC67828F07896004BBE84 /* MoneyViewFavoreteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoneyViewFavoreteViewController.swift; sourceTree = "<group>"; };
 		2A92605328EA438E005F4446 /* MeuDinheiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuDinheiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A92605628EA438E005F4446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A92605828EA438E005F4446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A92605A28EA438E005F4446 /* MyMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoneyView.swift; sourceTree = "<group>"; };
 		2A92606028EA438E005F4446 /* MeuDinheiro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeuDinheiro.xcdatamodel; sourceTree = "<group>"; };
 		2A92606228EA4391005F4446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A92606528EA4391005F4446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,9 +107,7 @@
 		2AA1D05528F0938F00D66BB9 /* GastosFixosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosFixosViewController.swift; sourceTree = "<group>"; };
 		2AA1D05D28F0958600D66BB9 /* GastosVariaveisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosVariaveisViewController.swift; sourceTree = "<group>"; };
 		2AA1D06228F095C000D66BB9 /* GastosVariaveisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosVariaveisView.swift; sourceTree = "<group>"; };
-		2AA1D06A28F096C100D66BB9 /* MercadoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoView.swift; sourceTree = "<group>"; };
-		2AA1D07228F096FE00D66BB9 /* MercadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoViewController.swift; sourceTree = "<group>"; };
-		2AD57ABB29007EB80048934C /* MercadoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercadoTableViewCell.swift; sourceTree = "<group>"; };
+		2AD57AC5290326B60048934C /* PrincipalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalTableViewCell.swift; sourceTree = "<group>"; };
 		2AFA8D7D28FEFB3900A4C208 /* GastosFixosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GastosFixosTableViewCell.swift; sourceTree = "<group>"; };
 		6D98B04AFCA40D33CA5E2072 /* Pods-MeuDinheiroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiroTests.release.xcconfig"; path = "Target Support Files/Pods-MeuDinheiroTests/Pods-MeuDinheiroTests.release.xcconfig"; sourceTree = "<group>"; };
 		9EB00960F9D50E43C50DCF3C /* Pods-MeuDinheiro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeuDinheiro.debug.xcconfig"; path = "Target Support Files/Pods-MeuDinheiro/Pods-MeuDinheiro.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,34 +158,108 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2A0CCBAA290851FD0058B22E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2A0CCB9B290831260058B22E /* interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2A0E2E3429085C57004AC58A /* Emptty */ = {
+			isa = PBXGroup;
+			children = (
+				2A1549DA28FF42FF00CD0615 /* User.swift */,
+			);
+			path = Emptty;
+			sourceTree = "<group>";
+		};
+		2A0E2E3529085CFE004AC58A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2A0E2E3629085D15004AC58A /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		2A13E86228FEF7AF0057ED9C /* Service */ = {
 			isa = PBXGroup;
 			children = (
 				2A13E85228FEEDC30057ED9C /* gastosmensais.json */,
 				2A92606428EA4391005F4446 /* LaunchScreen.storyboard */,
 				2A92606228EA4391005F4446 /* Assets.xcassets */,
-				2A92605A28EA438E005F4446 /* MyMoneyView.swift */,
-				2A92605828EA438E005F4446 /* SceneDelegate.swift */,
-				2A92605628EA438E005F4446 /* AppDelegate.swift */,
-				2A2245BF28EE134500EF1C60 /* TabBarHome.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
 		};
-		2A1549D828FF42CB00CD0615 /* Model */ = {
+		2A59DA46290988FD00535D5F /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				2A1549DA28FF42FF00CD0615 /* ApiServicoMercado.swift */,
+				2A59DA472909892100535D5F /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2A59DA62290AAFEF00535D5F /* Navagation */ = {
+			isa = PBXGroup;
+			children = (
+				2A92605828EA438E005F4446 /* SceneDelegate.swift */,
+				2A92605628EA438E005F4446 /* AppDelegate.swift */,
+				2A2245BF28EE134500EF1C60 /* TabBarHome.swift */,
+			);
+			path = Navagation;
+			sourceTree = "<group>";
+		};
+		2A59DA71290AD1A100535D5F /* CotacaoMoedas */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA8C290AD29F00535D5F /* Repository */,
+				2A59DA85290AD26A00535D5F /* Presenter */,
+				2A59DA7E290AD24F00535D5F /* Model */,
+				2A59DA79290AD20600535D5F /* Views */,
+				2A59DA72290AD1B100535D5F /* ViewController  */,
+			);
+			path = CotacaoMoedas;
+			sourceTree = "<group>";
+		};
+		2A59DA72290AD1B100535D5F /* ViewController  */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA73290AD1F400535D5F /* CoinCountingViewController.swift */,
+			);
+			path = "ViewController ";
+			sourceTree = "<group>";
+		};
+		2A59DA79290AD20600535D5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA7A290AD22C00535D5F /* CoinCountingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A59DA7E290AD24F00535D5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA7F290AD26400535D5F /* CoinCountingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		2A1549D928FF42D300CD0615 /* NetWoring */ = {
+		2A59DA85290AD26A00535D5F /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				2A1549E228FF444000CD0615 /* NetworingMercado.swift */,
+				2A59DA86290AD28100535D5F /* CoinCountingPresenter.swift */,
 			);
-			path = NetWoring;
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2A59DA8C290AD29F00535D5F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2A59DA8D290AD2C500535D5F /* CoinCountingRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		2A6DC68628F0794F004BBE84 /* Favoritos */ = {
@@ -220,6 +304,8 @@
 		2A92605528EA438E005F4446 /* MeuDinheiro */ = {
 			isa = PBXGroup;
 			children = (
+				2A59DA71290AD1A100535D5F /* CotacaoMoedas */,
+				2A59DA62290AAFEF00535D5F /* Navagation */,
 				2AA1D06728F0968C00D66BB9 /* Mercado */,
 				2AA1D04D28F092FA00D66BB9 /* GastosFixo */,
 				2AA1D05A28F0954000D66BB9 /* GastosVariaveis */,
@@ -271,6 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				2AA1D04228F07B9B00D66BB9 /* MoneyView.swift */,
+				2AD57AC5290326B60048934C /* PrincipalTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -337,9 +424,10 @@
 		2AA1D06728F0968C00D66BB9 /* Mercado */ = {
 			isa = PBXGroup;
 			children = (
-				2A1549D928FF42D300CD0615 /* NetWoring */,
-				2A1549D828FF42CB00CD0615 /* Model */,
-				2AA1D06928F096A300D66BB9 /* Controller */,
+				2A59DA46290988FD00535D5F /* Router */,
+				2A0CCBAA290851FD0058B22E /* Interactor */,
+				2A0E2E3529085CFE004AC58A /* Presenter */,
+				2A0E2E3429085C57004AC58A /* Emptty */,
 				2AA1D06828F0969900D66BB9 /* Views */,
 			);
 			path = Mercado;
@@ -348,18 +436,9 @@
 		2AA1D06828F0969900D66BB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2AA1D06A28F096C100D66BB9 /* MercadoView.swift */,
-				2AD57ABB29007EB80048934C /* MercadoTableViewCell.swift */,
+				2A59DA3E2909886200535D5F /* View.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		2AA1D06928F096A300D66BB9 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2AA1D07228F096FE00D66BB9 /* MercadoViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		2AFA8D7C28FEFB0E00A4C208 /* CustonCell  */ = {
@@ -592,23 +671,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AA1D07328F096FE00D66BB9 /* MercadoViewController.swift in Sources */,
-				2AD57ABC29007EB80048934C /* MercadoTableViewCell.swift in Sources */,
+				2AD57AC6290326B60048934C /* PrincipalTableViewCell.swift in Sources */,
+				2A59DA87290AD28100535D5F /* CoinCountingPresenter.swift in Sources */,
 				2AA1D05E28F0958600D66BB9 /* GastosVariaveisViewController.swift in Sources */,
-				2A92605B28EA438E005F4446 /* MyMoneyView.swift in Sources */,
 				2AA1D05128F0936E00D66BB9 /* GastosFixosView.swift in Sources */,
-				2AA1D06B28F096C100D66BB9 /* MercadoView.swift in Sources */,
+				2A0CCB9C290831260058B22E /* interactor.swift in Sources */,
 				2A6DC67428F07887004BBE84 /* MoneyFavoreteView.swift in Sources */,
+				2A59DA80290AD26400535D5F /* CoinCountingModel.swift in Sources */,
 				2AFA8D7E28FEFB3900A4C208 /* GastosFixosTableViewCell.swift in Sources */,
 				2AA1D03828F07B3D00D66BB9 /* MoneyViewController.swift in Sources */,
 				2AA1D04328F07B9B00D66BB9 /* MoneyView.swift in Sources */,
+				2A59DA7B290AD22C00535D5F /* CoinCountingView.swift in Sources */,
+				2A0E2E3729085D15004AC58A /* Presenter.swift in Sources */,
+				2A59DA482909892100535D5F /* Router.swift in Sources */,
 				2AA1D06328F095C000D66BB9 /* GastosVariaveisView.swift in Sources */,
 				2A92606128EA438E005F4446 /* MeuDinheiro.xcdatamodeld in Sources */,
-				2A1549E328FF444000CD0615 /* NetworingMercado.swift in Sources */,
+				2A59DA8E290AD2C500535D5F /* CoinCountingRepository.swift in Sources */,
+				2A59DA74290AD1F400535D5F /* CoinCountingViewController.swift in Sources */,
+				2A59DA3F2909886200535D5F /* View.swift in Sources */,
 				2A92605728EA438E005F4446 /* AppDelegate.swift in Sources */,
 				2A92605928EA438E005F4446 /* SceneDelegate.swift in Sources */,
 				2A6DC67928F07896004BBE84 /* MoneyViewFavoreteViewController.swift in Sources */,
-				2A1549DB28FF42FF00CD0615 /* ApiServicoMercado.swift in Sources */,
+				2A1549DB28FF42FF00CD0615 /* User.swift in Sources */,
 				2A2245C028EE134500EF1C60 /* TabBarHome.swift in Sources */,
 				2AA1D05628F0938F00D66BB9 /* GastosFixosViewController.swift in Sources */,
 			);
